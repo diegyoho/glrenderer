@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\EntryPoint.cpp" />
+    <ClCompile Include="Source\Window\Window.cpp" />
+    <ClCompile Include="Source\GLI\Shader.cpp" />
+    <ClCompile Include="Source\GLI\IBuffer.cpp" />
+    <ClCompile Include="Source\GLI\VertexBuffer.cpp" />
+    <ClCompile Include="Source\GLI\IndexBuffer.cpp" />
+    <ClCompile Include="Source\GLI\VertexArray.cpp" />
+    <ClCompile Include="Source\GLI\GLObject.cpp" />
+    <ClCompile Include="Source\ThirdParty\GLAD\glad.c" />
+    <ClCompile Include="Source\ThirdParty\STB\stb_image.cpp" />
+    <ClCompile Include="Source\GLI\Texture.cpp" />
+    <ClCompile Include="Source\GLI\Material.cpp" />
+    <ClCompile Include="Source\GLI\Renderer.cpp" />
+    <ClCompile Include="Source\GLI\Mesh.cpp" />
+    <ClCompile Include="Source\GLI\Model.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Window\Window.h" />
+    <ClInclude Include="Source\GLI\Shader.h" />
+    <ClInclude Include="Source\GLI\IBuffer.h" />
+    <ClInclude Include="Source\GLI\VertexBuffer.h" />
+    <ClInclude Include="Source\GLI\IndexBuffer.h" />
+    <ClInclude Include="Source\GLI\VertexArray.h" />
+    <ClInclude Include="Source\GLI\GLObject.h" />
+    <ClInclude Include="Source\GLI\Texture.h" />
+    <ClInclude Include="Source\GLI\Material.h" />
+    <ClInclude Include="Source\GLI\Renderer.h" />
+    <ClInclude Include="Source\GLI\Mesh.h" />
+    <ClInclude Include="Source\GLI\Model.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shaders\Basic.shader" />
+    <None Include="Resources\Shaders\Texture.shader" />
+  </ItemGroup>
+</Project>
