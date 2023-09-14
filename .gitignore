@@ -433,6 +433,9 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
+# Assimp DLL
+!assimp-vc143-mt.dll
+
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
